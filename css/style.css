@@ -1,0 +1,124 @@
+@media screen and (min-device-width: 769px) {
+  .page_bg_large {
+    background-image: url("images/bg-desktop.svg");
+  }
+  .header__logo_image {
+    padding: 50px 0 30px 5vw;
+  }
+  .main__image-block_illustration {
+    width: 40vw;
+    padding: 0 5vw;
+  }
+
+  .main__text-block_size {
+    width: 45vw;
+    float: left;
+  }
+  .main__text-block h1 {
+    width: 90%;
+    font-size: 30pt;
+    line-height: 1.3;
+  }
+
+  .main__text-block p {
+    width: 90%;
+    font-size: 20pt;
+  }
+  .button_size {
+    padding: 20px 65px;
+    font-size: 20pt;
+  }
+  .footer__logo_size {
+    padding: 50px 50px 0 0;
+  }
+}
+@media screen and (max-device-width: 768px) {
+  .page_bg_small {
+    background-image: url("images/bg-mobile.svg");
+    background-size: contain;
+  }
+  .header__logo_image {
+    height: 120px;
+    padding: 8vw;
+  }
+  .main__image-block_illustration {
+    width: 90vw;
+    padding: 5vh;
+  }
+
+  .main__text-block_size {
+    padding: 7vw;
+    float: left;
+    text-align: center;
+  }
+  .main__text-block h1 {
+    font-size: 50pt;
+    line-height: 1.3;
+  }
+
+  .main__text-block p {
+    font-size: 30pt;
+    line-height: 1.2;
+  }
+  .button_size {
+    padding: 30px 200px;
+    font-size: 30pt;
+  }
+  .footer__logo_size {
+    padding: 7vw;
+  }
+}
+.page {
+  background-color: #674BB1;
+  background-repeat: no-repeat;
+  color: white;
+  margin: auto;
+}
+
+.page__main {
+  display: inline-block;
+}
+
+.main__image-block {
+  float: left;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button_theme_white {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 7px black;
+  transition: all 1.5s linear;
+}
+
+.button_theme_white:hover {
+  background-color: goldenrod;
+  transition: all 1.5s linear;
+  color: white;
+  font-weight: bolder;
+}
+
+.footer__logo {
+  text-align: right;
+}
+
+.footer__logo_theme_white img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 10px;
+  filter: brightness(5);
+  transition: all 0.5s linear;
+}
+
+.footer__logo_theme_white img:hover {
+  height: 50px;
+  width: 50px;
+  transition: all 0.5s linear;
+}
